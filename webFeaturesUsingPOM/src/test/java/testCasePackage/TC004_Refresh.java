@@ -12,7 +12,7 @@ public class TC004_Refresh extends BaseDriver {
     @Test
     public static void refreshPage() throws InterruptedException {
         driver.get(baseUrl);
-        new WebDriverWait(driver, Duration.ofSeconds(10));
+        new WebDriverWait(driver, Duration.ofSeconds(5));
 
         // Object creation of PO_003_DropDown Class
         PO_004_Refresh refresh = new PO_004_Refresh(driver);
