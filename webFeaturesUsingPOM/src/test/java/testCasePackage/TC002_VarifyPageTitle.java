@@ -21,8 +21,9 @@ public class TC002_VarifyPageTitle extends BaseDriver{
 		PO_002_VarifyPageTitle pageTitleClass = new PO_002_VarifyPageTitle(driver);
 		
 		//Get page title
-		pageTitleClass.getPageTitle();
 		Thread.sleep(5000);
+		pageTitleClass.getPageTitle();
+		Thread.sleep(3000);
 		
 		//driver.close();
 	}

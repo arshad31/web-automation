@@ -1,7 +1,6 @@
 package pageObjectPackage;
 
 import org.openqa.selenium.*;
-import org.openqa.selenium.support.PageFactory;
 
 public class PO_005_Scroll {
     WebDriver driver = null;
@@ -10,7 +9,7 @@ public class PO_005_Scroll {
     public PO_005_Scroll(WebDriver driver) {
         this.driver = driver;
         this.js = (JavascriptExecutor) this.driver;
-        PageFactory.initElements(driver, this);
+        //PageFactory.initElements(driver, this);
     }
 
     //Variable to get web element from the page
