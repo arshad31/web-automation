@@ -10,7 +10,7 @@ import java.time.Duration;
 public class TC009_PopUp extends BaseDriver {
     public static String baseUrl = "https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_alert";
     @Test
-    public static void keyboardEvent() throws InterruptedException {
+    public static void PopUp() throws InterruptedException {
         driver.get(baseUrl);
         new WebDriverWait(driver, Duration.ofSeconds(5));
 

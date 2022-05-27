@@ -6,7 +6,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
 
 import driverPackage.BaseDriver;
-import pageObjectPackage.PO_002_VarifyPageTitle;
+import pageObjectPackage.PO_002_VerifyPageTitle;
 
 public class TC002_VarifyPageTitle extends BaseDriver{
 
@@ -18,7 +18,7 @@ public class TC002_VarifyPageTitle extends BaseDriver{
 		new WebDriverWait(driver, Duration.ofSeconds(5));
 		
 		// Object creation of PO_002_VarifyPageTitle Class
-		PO_002_VarifyPageTitle pageTitleClass = new PO_002_VarifyPageTitle(driver);
+		PO_002_VerifyPageTitle pageTitleClass = new PO_002_VerifyPageTitle(driver);
 		
 		//Get page title
 		Thread.sleep(5000);

@@ -11,7 +11,7 @@ import java.time.Duration;
 public class TC007_Slider extends BaseDriver {
     public static String baseUrl = "https://jqueryui.com/slider/";
     @Test
-    public static void doubleClickAndRightClick() throws InterruptedException {
+    public static void slider() throws InterruptedException {
         driver.get(baseUrl);
         new WebDriverWait(driver, Duration.ofSeconds(5));
 
