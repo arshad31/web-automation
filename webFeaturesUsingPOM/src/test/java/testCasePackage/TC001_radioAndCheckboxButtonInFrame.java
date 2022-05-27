@@ -38,7 +38,7 @@ public class TC001_radioAndCheckboxButtonInFrame extends BaseDriver{
 		radioAndCheckboxClass.uncheckFiveStarOption();
 		Thread.sleep(5000);
 		
-		// Back to page
+		// Back from frame
 		driver.switchTo().defaultContent();
 		// Close site
 		driver.close();
