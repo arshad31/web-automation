@@ -5,6 +5,7 @@ import org.openqa.selenium.*;
 public class PO_005_Scroll {
     WebDriver driver = null;
     JavascriptExecutor js;
+    String d = null;
     //Constructor creation
     public PO_005_Scroll(WebDriver driver) {
         this.driver = driver;

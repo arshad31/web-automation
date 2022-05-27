@@ -16,10 +16,11 @@ public class PO_002_VerifyPageTitle {
 	}
 
 	//Variable to get web element from the page
-	String pageTitle = driver.getTitle();//js.executeScript("return document.title;").toString();
+	//js.executeScript("return document.title;").toString();
 
 	//Method to perform action in the page
 	public void getPageTitle() {
+		String pageTitle = driver.getTitle();
 		System.out.println(pageTitle);
 	}
 

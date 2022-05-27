@@ -17,7 +17,6 @@ public class TC005_Scroll extends BaseDriver {
         // Object creation of PO_005_Scroll Class
         PO_005_Scroll scroll = new PO_005_Scroll(driver);
 
-
         //Scroll to Bottom
         scroll.scrollToBottom();
         Thread.sleep(3000);

@@ -20,8 +20,4 @@ public class BaseDriver {
 	public void tearDown() {
 		driver.quit();
 	}
-	
-	
-	
-
 }
